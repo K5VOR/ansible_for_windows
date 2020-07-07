@@ -1,0 +1,11 @@
+---
+- hosts: win
+  tasks:
+
+  - name: download file
+    win_get_url:
+      url: "https://www.pacdv.com/sounds/voices/you-dont-know-how.wav"
+      dest: C:\alien.wav
+  - name: say test
+    win_say:
+      start_sound_path: C:\alien.wav
