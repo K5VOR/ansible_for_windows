@@ -1,0 +1,1 @@
+docker-compose -f "$env:ANSIBLE_DOCKER_HOST\docker-compose.yml" run --rm ansible ansible $args

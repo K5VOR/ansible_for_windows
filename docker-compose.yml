@@ -1,0 +1,8 @@
+version: '3'
+services: 
+    ansible:
+        build: .
+        volumes:
+            - ./etc/ansible:/etc/ansible
+            - ./etc/krb5.conf:/etc/krb5.conf
+        working_dir: /etc/ansible
