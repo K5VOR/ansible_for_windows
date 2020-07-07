@@ -1,4 +1,4 @@
-# docker_ansible_windows
+# ansible_for_windows
 This project aims to created an easy to use ansible docker container on windows.  Included utilities will install Docker and setup all required environmental variables.
 
 # installation
